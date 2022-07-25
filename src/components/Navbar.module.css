@@ -1,0 +1,53 @@
+.wrapper {
+  width: 100%;
+  background-color: #151e2bb1;
+  position: fixed;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  height: 10vh;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.menu li a {
+  color: #b1bac4;
+  text-decoration: none;
+}
+
+.menu li:nth-child(2) a {
+  margin: 0 1em;
+}
+
+.container {
+  width: 30%;
+}
+
+.container .logo {
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 1024px) {
+  .navbar {
+    width: 80%;
+  }
+
+  .menu {
+    justify-content: space-around;
+    width: 25%;
+  }
+}
