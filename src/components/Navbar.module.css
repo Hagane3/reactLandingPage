@@ -1,6 +1,6 @@
 .wrapper {
   width: 100%;
-  background-color: #151e2bb1;
+  background-color: #1b233065;
   position: fixed;
   z-index: 1;
 }
@@ -24,6 +24,7 @@
 .menu li a {
   color: #b1bac4;
   text-decoration: none;
+  font-size: 0.9em;
 }
 
 .menu li:nth-child(2) a {
@@ -39,6 +40,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.4s;
+}
+
+.container .logo:hover {
+  transform: scale(1.2);
 }
 
 @media only screen and (min-width: 1024px) {

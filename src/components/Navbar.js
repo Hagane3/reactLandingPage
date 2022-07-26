@@ -8,7 +8,9 @@ const Navbar = () => {
     <div className={classes.wrapper}>
       <nav className={classes.navbar}>
         <div className={classes.container}>
-          <img src={logo} className={classes.logo} alt="logo"></img>
+          <a href="#header">
+            <img src={logo} className={classes.logo} alt="logo"></img>
+          </a>
         </div>
         <ul className={classes.menu}>
           <li>
