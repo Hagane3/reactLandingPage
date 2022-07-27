@@ -7,6 +7,10 @@
   justify-content: space-around;
   position: relative;
   top: calc(10vh);
+  background-image: url("../assets/bg-curvy-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 100%;
 }
 
 img {
@@ -77,6 +81,9 @@ button:hover {
 }
 
 @media only screen and (min-width: 1024px) {
+  .header {
+    background-image: url("../assets/bg-curvy-desktop.svg");
+  }
   .header img {
     max-width: 600px;
   }
