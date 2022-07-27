@@ -1,0 +1,53 @@
+.about {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fcffff;
+  padding: 2em 0;
+}
+
+.picture {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.about .image {
+  width: 70%;
+}
+
+.about h2 {
+  font-size: 1.2em;
+}
+
+.about p {
+  text-align: left;
+  font-size: 0.9em;
+  margin-top: 1em;
+}
+
+.about a {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: #64e1d5;
+  text-underline-offset: 0.2em;
+}
+
+.about a img {
+  width: 1.2em;
+  margin: 0 0 0 0.5em;
+}
+
+@media only screen and (min-width: 1024px) {
+  .about {
+    flex-direction: row;
+    gap: 5em;
+  }
+
+  .description {
+    max-width: 600px;
+  }
+}
