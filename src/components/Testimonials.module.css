@@ -1,0 +1,78 @@
+.testimonials {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fcffff;
+}
+
+.card {
+  background-color: #21293c;
+  display: flex;
+  flex-direction: column;
+  margin: 2em 0;
+  padding: 2em;
+  border-radius: 10px;
+  position: relative;
+}
+
+.quotes {
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  top: -1.2em;
+  left: -0.5em;
+}
+
+.description {
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 20%;
+  margin-right: 1em;
+}
+
+.image img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.details h2 {
+  font-size: 0.8em;
+  letter-spacing: 2px;
+}
+
+.details p {
+  font-size: 0.8em;
+}
+
+@media only screen and (min-width: 1024px) {
+  .testimonials {
+    flex-direction: row;
+    gap: 4em;
+  }
+
+  .card {
+    max-width: 500px;
+  }
+
+  .image {
+    width: 15%;
+    margin-right: 1em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    width: 60%;
+  }
+}
