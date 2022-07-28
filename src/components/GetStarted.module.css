@@ -2,8 +2,10 @@
   width: 90%;
   background-color: #21293c;
   margin: 0 auto;
-  margin-top: 10em;
   text-align: center;
+  position: relative;
+  transform: translateY(50%);
+  border-radius: 20px;
 }
 
 .card {

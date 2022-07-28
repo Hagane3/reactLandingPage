@@ -94,10 +94,5 @@ button:hover {
 
   button {
     width: 30%;
-    transition: 0.3s;
-  }
-
-  button:hover {
-    background-color: #388b97;
   }
 }

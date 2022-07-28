@@ -64,6 +64,25 @@
 
   .card {
     max-width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card p {
+    font-size: 1em;
+    line-height: 1.4em;
+  }
+
+  .card .details h2 {
+    font-size: 1.2em;
+    margin-bottom: 0;
+  }
+
+  .card .details p {
+    margin-top: 0.5em;
+    font-size: 0.8em;
   }
 
   .image {
