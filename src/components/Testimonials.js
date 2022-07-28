@@ -11,8 +11,8 @@ import Fade from "react-reveal/Fade";
 
 const Testimonials = () => {
   return (
-    <Fade bottom duration="2000">
-      <div className={classes.testimonials}>
+    <div className={classes.testimonials}>
+      <Fade bottom duration="2000">
         <div className={classes.card}>
           <img src={quotesImg} alt="quotes" className={classes.quotes}></img>
           <p className={classes.description}>
@@ -30,6 +30,8 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
+      </Fade>
+      <Fade bottom duration="2000">
         <div className={classes.card}>
           <p className={classes.description}>
             Fylo has improved our team productivity by an order of magnitude.
@@ -46,6 +48,8 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
+      </Fade>
+      <Fade bottom duration="2000">
         <div className={classes.card}>
           <p className={classes.description}>
             Fylo has improved our team productivity by an order of magnitude.
@@ -62,8 +66,8 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-      </div>
-    </Fade>
+      </Fade>
+    </div>
   );
 };
 
