@@ -1,0 +1,82 @@
+.getstarted {
+  width: 90%;
+  background-color: #21293c;
+  margin: 0 auto;
+  margin-top: 10em;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card h2,
+.card p {
+  color: #fcffff;
+}
+
+.card h2 {
+  font-size: 1.2em;
+}
+
+.card p {
+  font-size: 0.8em;
+}
+
+.card input {
+  width: 100%;
+  height: 2.5em;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.card button {
+  margin-top: 2em;
+  background-color: #4ec3d4;
+  height: 3.5em;
+  width: 80%;
+  border: 1px solid white;
+  border-radius: 30px;
+  color: white;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+@media only screen and (min-width: 768px) {
+  .getstarted {
+    width: 80%;
+  }
+
+  .card button {
+    display: inline-block;
+  }
+  .card input {
+    width: 60%;
+  }
+
+  .card button {
+    width: 30%;
+    padding: 0;
+    margin-left: 2em;
+    font-size: 0.7em;
+    border: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .getstarted {
+    max-width: 800px;
+  }
+  .card {
+    display: block;
+  }
+  .card p {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
