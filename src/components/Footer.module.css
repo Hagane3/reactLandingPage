@@ -11,6 +11,7 @@
 
 .footer {
   background-color: #0c1526;
+  overflow: hidden;
 }
 
 .logo {
@@ -85,6 +86,10 @@
 .socials {
   margin-top: 3em;
   text-align: center;
+}
+
+.socials a {
+  margin: 0 1em;
 }
 
 @media only screen and (min-width: 768px) {

@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
   color: #fcffff;
-  margin-top: 15em;
+  margin-top: 8em;
 }
 
 .card {
@@ -60,6 +60,7 @@
   .testimonials {
     flex-direction: row;
     gap: 4em;
+    margin-top: 15em;
   }
 
   .card {
